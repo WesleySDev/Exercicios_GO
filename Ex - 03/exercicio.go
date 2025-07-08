@@ -11,21 +11,20 @@ import (
 )
 
 func main() {
- var a, b int 
- var c int
+	var a, b int
+	var c int
 
-fmt.Print("Digite o primeiro número: ")
+	fmt.Print("Digite o primeiro número: ")
 	fmt.Scanln(&a)
 	fmt.Print("Digite o segundo número: ")
 	fmt.Scanln(&b)
 
-  if a == b  {
-   c = a + b
-   fmt.Print(c)
-  }else {
-   c  = a * b 
-   fmt.Print(c)
-  }
-
+	if a == b {
+		c = a + b
+		fmt.Print(c)
+	} else {
+		c = a * b
+		fmt.Print(c)
+	}
 
 }
